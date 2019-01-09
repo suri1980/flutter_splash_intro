@@ -1,6 +1,8 @@
 # splash_intro
 
-A new Flutter project.
+This is a basic flutter project with Splash Screen & App walkthrough screens before going to Default View.
+
+<img src="https://i.gyazo.com/a52e7b86612fbf6e4bc8bb43a616e98f.gif"/>
 
 ## Getting Started
 
