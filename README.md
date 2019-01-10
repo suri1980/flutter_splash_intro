@@ -6,7 +6,7 @@ This is a basic flutter project with Splash Screen & App walkthrough screens bef
 <img src="https://i.gyazo.com/a52e7b86612fbf6e4bc8bb43a616e98f.gif"/>
 
 ## iOS
-<img src="https://www.dropbox.com/s/7mfirg7pu0ei3rt/splash_intro%5BiOS%5D.gif"/>
+<img src="http://www.buddysuri.com/flutterscreens/splash_intro[iOS].gif"/>
 
 ## Getting Started
 
