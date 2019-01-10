@@ -30,9 +30,10 @@ class _MyAppState extends State<MyApp> {
           fontWeight: FontWeight.bold
         ),
       ),
-      image: new Image.network(splashScreenLogo),
+      image: new Image.asset(splashScreenLogo),
       backgroundColor: Colors.teal,
-      styleTextUnderTheLoader: new TextStyle(),
+      //styleTextUnderTheLoader: new TextStyle(),
+      photoSize: 100.0,
       loaderColor: Colors.white,
       );
   }
