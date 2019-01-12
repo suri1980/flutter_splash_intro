@@ -7,7 +7,7 @@ class IntroView extends StatefulWidget {
 }
 
 class _IntroViewState extends State<IntroView> {
-   List<Slide> slides = new List();
+  List<Slide> slides = new List();
 
   @override
   void initState() {
@@ -15,18 +15,19 @@ class _IntroViewState extends State<IntroView> {
     slides.add(
       new Slide(
         title: "SLIDE 1",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        description:
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         pathImage: "assets/cake-slice.png",
         backgroundColor: Colors.deepOrangeAccent,
       ),
     );
     slides.add(
       new Slide(
-        title: "SLIDE 2",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        pathImage: "assets/emoticon.png",
-        backgroundColor: Colors.purpleAccent
-      ),
+          title: "SLIDE 2",
+          description:
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          pathImage: "assets/emoticon.png",
+          backgroundColor: Colors.purpleAccent),
     );
     slides.add(
       new Slide(

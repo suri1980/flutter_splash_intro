@@ -26,7 +26,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -36,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
           IconButton(
             icon: Icon(Icons.settings, color: Colors.white),
             tooltip: 'Play video',
-            onPressed: (){
+            onPressed: () {
               print('Settings Pressed');
             },
           ),
@@ -78,15 +77,17 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  Widget drawerHeader(appTitle){
-  return UserAccountsDrawerHeader(
-    accountName: new Text(appTitle, style: TextStyle(fontSize: 20.0),),
-    accountEmail: null,
-    currentAccountPicture: new CircleAvatar(
-      backgroundImage: new AssetImage(accountHeaderUserIcon),
-      backgroundColor: Colors.white,
-    ),
-  );
-}
-
+  Widget drawerHeader(appTitle) {
+    return UserAccountsDrawerHeader(
+      accountName: new Text(
+        appTitle,
+        style: TextStyle(fontSize: 20.0),
+      ),
+      accountEmail: null,
+      currentAccountPicture: new CircleAvatar(
+        backgroundImage: new AssetImage(accountHeaderUserIcon),
+        backgroundColor: Colors.white,
+      ),
+    );
+  }
 }
