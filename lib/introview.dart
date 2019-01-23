@@ -41,17 +41,11 @@ class _IntroViewState extends State<IntroView> {
   }
 
   void onDonePress() {
-    Navigator.push(
-      context,
-      MaterialPageRoute(builder: (context) => HomeScreen()),
-    );
+    Navigator.pushNamed(context, 'home');
   }
 
   void onSkipPress() {
-    Navigator.push(
-      context,
-      MaterialPageRoute(builder: (context) => HomeScreen()),
-    );
+    Navigator.pushNamed(context, 'home');
   }
 
   @override
